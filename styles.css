@@ -21,7 +21,7 @@ body {
     justify-content: center;
     align-items: center;
     /* image first, then fallback gradient */
-    background: url('https://res.cloudinary.com/dqwnxjkso/image/upload/v1769758652/WhatsApp_Image_2026-01-28_at_20.00.22_guevhl.png') center/cover no-repeat,
+    background: url('https://res.cloudinary.com/dqwnxjkso/image/upload/c_crop,g_north_west,h_710,w_1515,x_85,y_3/c_crop,g_north_west,h_497,w_1026,x_13/WhatsApp_Image_2026-01-28_at_20.00.22_guevhl.png') center/cover no-repeat,
                 linear-gradient(135deg, var(--background-color-1), var(--background-color-2));
     background-size: cover;        /* ensures image covers the viewport */
     background-position: center;   /* centers the image */
