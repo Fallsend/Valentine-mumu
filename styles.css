@@ -20,7 +20,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, var(--background-color-1), var(--background-color-2));
+    /* image first, then fallback gradient */
+    background: url('https://res.cloudinary.com/dqwnxjkso/image/upload/v1769757950/IMG-20260128-WA0012_a4h5v1.jpg') center/cover no-repeat,
+                linear-gradient(135deg, var(--background-color-1), var(--background-color-2));
+    background-size: cover;        /* ensures image covers the viewport */
+    background-position: center;   /* centers the image */
+    background-repeat: no-repeat;  /* prevents tiling */
     font-family: Arial, sans-serif;
     overflow-x: hidden;
 }
