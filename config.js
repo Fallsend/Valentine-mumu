@@ -33,25 +33,25 @@ const CONFIG = {
             nextBtn: "Next 💌"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: "Will you be my Valentine my dear? 😙", // The big question!
+            yesBtn: "Yess!",                                             // Text for "Yes" button
+            noBtn: "No 🤬"                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "WOAHHH You love me that much mumu?? 🤯😍",  // Shows when they go past 5000%
+        high: "Keep going 😋 Almost there!!",              // Shows when they go past 1000%
+        normal: "You can do better 🙄"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        title: "HELLYEAH I AM SO HAPPY GOOD JOB HONEYY",
+        message: "I love you so much Moon of my life!",
+        emojis: "😋🤯😍🤗❤️‍🩹💋🐥🩷💕"  // These will bounce around
     },
 
     // Color scheme for the website
