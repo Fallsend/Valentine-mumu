@@ -21,7 +21,7 @@ body {
     justify-content: center;
     align-items: center;
     /* image first, then fallback gradient */
-    background: url('https://res.cloudinary.com/dqwnxjkso/image/upload/c_crop,g_north_west,h_710,w_1515,x_85,y_3/IMG-20260128-WA0012_a4h5v1.jpg') center/cover no-repeat,
+    background: url('https://res.cloudinary.com/dqwnxjkso/image/upload/v1769757926/IMG_20250709_225001_yvdbrf.jpg') center/cover no-repeat,
                 linear-gradient(135deg, var(--background-color-1), var(--background-color-2));
     background-size: cover;        /* ensures image covers the viewport */
     background-position: center;   /* centers the image */
